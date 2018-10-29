@@ -43,7 +43,16 @@
           <artifactId>xchange-bitfinex</artifactId>
           <version>4.3.2</version>
       </dependency>
-
+      <dependency>
+          <groupId>info.bitrich.xchange-stream</groupId>
+          <artifactId>xchange-poloniex</artifactId>
+          <version>4.3.2</version>
+      </dependency>
+      <dependency>
+          <groupId>info.bitrich.xchange-stream</groupId>
+          <artifactId>xchange-binance</artifactId>
+          <version>4.3.2</version>
+      </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>

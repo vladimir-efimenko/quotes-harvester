@@ -1,0 +1,21 @@
+db:
+  url: jdbc:mysql://localhost:3306/
+  database: quotesHarvester
+  user: user
+  password: password
+flush_period_s: 10
+instruments:
+- name: BTCUSD
+  instrument: BTC/USDT
+- name: ETHUSD
+  instrument: ETH/USDT
+- name: ETHUSD-synth1
+  instrument: ETH/USD
+  depends:
+  - ETH/BTC
+  - BTC/USD
+- name: ETHUSD-synth2
+  instrument: ETH/USD
+  depends:
+  - ETH/BCH
+  - USD/BCH
